@@ -1,0 +1,7 @@
+Math + 4 6
+Math - 5 7
+Math * 4.5 8.6
+Math / 3.0 4.0
+Math % 9 5
+Word t 4 5
+Math ( 6 4
