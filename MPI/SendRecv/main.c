@@ -1,4 +1,4 @@
-#include <mpich/mpi.h>
+#include <mpi.h>
 #include <stdio.h>
 
 int main(void)

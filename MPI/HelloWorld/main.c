@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <mpich/mpi.h>
+#include <mpi.h>
 
 int main(void)
 {
