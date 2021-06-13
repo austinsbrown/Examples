@@ -5,4 +5,4 @@ clean:
 	rm HelloWorld
 
 run:
-	mpiexec -n 1 ./HelloWorld
+	mpiexec -n 2 ./HelloWorld
