@@ -1,0 +1,1 @@
+rm a.out dump.vcd output1.txt output2.txt output3.txt

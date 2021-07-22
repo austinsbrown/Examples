@@ -1,0 +1,4 @@
+// Class Roll For CPE112
+Ron,Bowman, 100.2 100.8 100.8 99.8
+Johnny,Quick, 54 53 52 51 
+Mary,Beacon, 87 96 43 63

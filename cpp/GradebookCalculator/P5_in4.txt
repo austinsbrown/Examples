@@ -1,0 +1,4 @@
+// Doodling 101
+Ron,Bowman, 100.75 85.63 96.32 99.1
+Johnny BeGoode,Quick, 60 60 60 60
+Mary,Francis Beacon, 59.99 59.99 59.99 59.99
