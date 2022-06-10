@@ -1,0 +1,51 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r Setup, include=FALSE}
+library(ggplot2)
+library(ggthemes)
+library(cowplot)
+library(plotly)
+```
+
+```{r Violin, echo=FALSE}
+
+p1 <- ggplot(iris, aes(x=Species, y=Sepal.Length, fill=Species)) +
+     geom_violin(trim=FALSE) + 
+     geom_boxplot(width=0.05, fill="white") + 
+     theme_minimal_hgrid() +
+     theme(legend.position = "none") + ylab("Length")
+
+p1
+```
+
+```{r Scatter, echo=FALSE}
+p2 <- ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
+      geom_point() + facet_grid(cols = vars(Species)) +
+      theme_minimal_hgrid() + 
+      xlab("Length") + ylab("Width") + theme(legend.position="none")
+
+p2
+```
+
+```{r Export-Figures, eval=FALSE, include=FALSE}
+w <- 5.5
+h <- 3
+
+ggsave("p1.svg", p1, width=w, height=h)
+ggsave("p2.svg", p2, width=w, height=h)
+
+```
+
+
+
+
+
+
+
+

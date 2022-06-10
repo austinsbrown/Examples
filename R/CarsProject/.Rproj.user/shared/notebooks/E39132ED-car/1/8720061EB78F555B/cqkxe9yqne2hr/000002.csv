@@ -1,0 +1,8 @@
+"0",""
+"0","p1 <- ggplot(iris, aes(x=Species, y=Sepal.Length, fill=Species)) +"
+"0","     geom_violin(trim=FALSE) + "
+"0","     geom_boxplot(width=0.05, fill=""white"") + "
+"0","     theme_minimal_hgrid() +"
+"0","     theme(legend.position = ""none"") + ylab(""Length"")"
+"0",""
+"0","p1"

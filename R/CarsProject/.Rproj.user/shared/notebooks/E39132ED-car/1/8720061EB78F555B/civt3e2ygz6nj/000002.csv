@@ -1,0 +1,6 @@
+"0","p2 <- ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +"
+"0","      geom_point() + facet_grid(cols = vars(Species)) +"
+"0","      theme_minimal_hgrid() + "
+"0","      xlab(""Length"") + ylab(""Width"") + theme(legend.position=""none"")"
+"0",""
+"0","p2"

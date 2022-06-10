@@ -1,0 +1,7 @@
+"0","w <- 5.5"
+"0","h <- 3"
+"0",""
+"0","ggsave(""p1.svg"", p1, width=w, height=h)"
+"0","ggsave(""p2.svg"", p2, width=w, height=h)"
+"0","ggsave(""p3.svg"", p3, width=w, height=5.5)"
+"0",""

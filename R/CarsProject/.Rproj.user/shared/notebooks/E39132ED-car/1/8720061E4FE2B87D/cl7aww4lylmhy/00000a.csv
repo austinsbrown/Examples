@@ -1,0 +1,8 @@
+"0","p3 <- ggbetweenstats("
+"0","  data  = iris,"
+"0","  x     = Species,"
+"0","  y     = Sepal.Length,"
+"0","  title = ""Distribution of sepal length across Iris species"""
+"0",") + ylab(""Sepal Length"")"
+"0",""
+"0","p3"
